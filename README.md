@@ -28,7 +28,7 @@ Mengisi display filter dengan : ```frame contains "Real.pdf"```
 
 ![image](https://user-images.githubusercontent.com/55623766/134754975-abda5fdc-9493-408e-acb0-67a7b01f315d.png)
 
-Klik kanan lalu klik follow dan pilih TCP-Stream.
+Klik kanan lalu klik follow dan pilih TCP Stream.
 
 ![image](https://user-images.githubusercontent.com/55623766/134755003-0411e4f6-7839-4be7-b9d1-f0c46260beeb.png)
 
