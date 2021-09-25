@@ -96,7 +96,7 @@ Extract file zip tersebut dan buka file Real.pdf.
 
 **8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!**
 
-Filter menggunakan ```ftp contains "RETR"```.
+Filter menggunakan ```ftp-data.command == "RETR"```.
 
 ![image](https://user-images.githubusercontent.com/72073667/134774776-a5ff2642-9300-43fa-8497-be7ac1d57336.png)
 
