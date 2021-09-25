@@ -59,3 +59,25 @@ Setelah kita buka, isinya adalah sebuah file dengan nama "Wanted.pdf"
 ![image](https://user-images.githubusercontent.com/55623766/134755283-44dda1b7-640f-4dc1-8a57-c109526c02ce.png)
 
 **10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!**
+
+Cari file menggunakan filter ```ftp-data.command contains "history.txt"```
+
+![image](https://user-images.githubusercontent.com/55623766/134755376-2e77fa54-25da-44a0-97f4-848ebb933ccf.png)
+
+Setelah itu klik kanan salah satu paket dan follow TCP Stream
+
+![image](https://user-images.githubusercontent.com/55623766/134755398-e2da936a-b359-403e-871e-2314f7403c32.png)
+
+Passwordnya berada pada file "bukanapaapa.txt". Untuk mencarinya bisa menggunakan filter ```ftp-data.command contains "bukanapaapa.txt"```
+
+![image](https://user-images.githubusercontent.com/55623766/134755429-8f732c95-fe54-4c07-822f-42eceb1c005a.png)
+
+Saat di-follow TCP Stream, bisa kita lihat passwordnya yaitu ```d1b1langbukanapaapajugagapercaya```
+
+![image](https://user-images.githubusercontent.com/55623766/134755444-df741347-88bf-4307-80ef-96732b90e6c6.png)
+
+Tinggal kita extract zip tadi dan kita mendapat isi file dari "Wanted.zip" seperti di bawah
+
+![image](https://user-images.githubusercontent.com/55623766/134755471-143fef3c-22db-4d2b-86e8-5e93fc0c6900.png)
+
+
