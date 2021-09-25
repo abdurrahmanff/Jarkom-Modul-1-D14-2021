@@ -3,8 +3,8 @@ Lapres Modul 1 Jarkom
 
 ### Nama Anggota Kelompok
 1. A. Zidan Abdillah Majid (05111940000070)
-2. 
-3. 
+2. Cliffton Delias Perangin Angin (05111940000181)
+3. Abdurrahman Fauzan Firmansyah (05111940000231)
 
 ### Soal
 
