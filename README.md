@@ -46,4 +46,16 @@ Extract file zip tersebut dan buka file Real.pdf.
 
 **9. Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!**
 
+Cari file menggunakan filter ```ftp-data.command contains "secret.zip"```
+
+![image](https://user-images.githubusercontent.com/55623766/134755214-e2792d2e-ad2d-4f59-88af-e33df64f054a.png)
+
+Setelah itu klik kanan pada salah satu paket dan follow TCP Stream, ubah ASCII menjadi Raw, lalu save as dengan nama "secret.zip"
+
+![image](https://user-images.githubusercontent.com/55623766/134755266-6196332c-e133-442c-808b-f13cd4b5d34d.png)
+
+Setelah kita buka, isinya adalah sebuah file dengan nama "Wanted.pdf"
+
+![image](https://user-images.githubusercontent.com/55623766/134755283-44dda1b7-640f-4dc1-8a57-c109526c02ce.png)
+
 **10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!**
