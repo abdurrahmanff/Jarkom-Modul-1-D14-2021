@@ -18,7 +18,7 @@ Klik kanan lalu klik follow dan pilih TCP-Stream.
 
 ![image](https://user-images.githubusercontent.com/55623766/134754871-91cd0f2a-7a56-4d87-a5fb-f1c1ff05ca42.png)
 
-Password dan Usernama sudah terlihat.
+Password dan Username sudah terlihat.
 
 ![image](https://user-images.githubusercontent.com/55623766/134754875-8d5e7528-eff6-477f-9d37-f0237534dc5d.png)
 
