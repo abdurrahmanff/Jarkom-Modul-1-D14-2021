@@ -76,7 +76,7 @@ Saat di-follow TCP Stream, bisa kita lihat passwordnya yaitu ```d1b1langbukanapa
 
 ![image](https://user-images.githubusercontent.com/55623766/134755444-df741347-88bf-4307-80ef-96732b90e6c6.png)
 
-Tinggal kita extract zip tadi dan kita mendapat isi file dari "Wanted.zip" seperti di bawah
+Tinggal kita extract zip tadi dan kita mendapat isi file dari "Wanted.zip" seperti di ini
 
 ![image](https://user-images.githubusercontent.com/55623766/134755471-143fef3c-22db-4d2b-86e8-5e93fc0c6900.png)
 
