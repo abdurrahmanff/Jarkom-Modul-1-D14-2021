@@ -96,6 +96,12 @@ Mengisi capture filter dengan : ```port 21```
 
 ![12 2](https://user-images.githubusercontent.com/90588333/134759006-1f193785-d1c9-4cb6-8089-18465551609e.png)
 
+**13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!**
+
+Mengisi capture filter dengan : ```port 21```
+
+![13 1](https://user-images.githubusercontent.com/90588333/134759474-b1b1d142-84bf-491d-9650-f944594c5e84.png)
+
 **14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!**
 
 Mengisi capture filter dengan : ```dst host kemenag.go.id```
