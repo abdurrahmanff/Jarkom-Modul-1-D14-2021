@@ -1,10 +1,12 @@
 # Jarkom-Modul-1-D14-2021
 Lapres Modul 1 Jarkom
 
-### Nama Anggota Kelompok :
+### Nama Anggota Kelompok
 ### 1. A. Zidan Abdillah Majid (05111840000070)
 ### 2. 
 ### 3. 
+
+### Soal
 
 **6. Cari username dan password ketika melakukan login ke FTP Server!**
 
