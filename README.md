@@ -98,7 +98,7 @@ Mengisi capture filter dengan : ```port 21```
 
 **13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!**
 
-Mengisi capture filter dengan : ```port 21```
+Mengisi capture filter dengan : ```tcp.dstport == 443```
 
 ![13 1](https://user-images.githubusercontent.com/90588333/134759474-b1b1d142-84bf-491d-9650-f944594c5e84.png)
 
