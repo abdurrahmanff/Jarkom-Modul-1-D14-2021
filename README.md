@@ -94,6 +94,14 @@ Extract file zip tersebut dan buka file Real.pdf.
 
 ![image](https://user-images.githubusercontent.com/55623766/134755118-26dfa764-92bf-4d76-9505-aa07f9d03d71.png)
 
+**8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!**
+
+Filter menggunakan ```ftp contains "RETR"```.
+
+![image](https://user-images.githubusercontent.com/72073667/134774776-a5ff2642-9300-43fa-8497-be7ac1d57336.png)
+
+Tidak ditemukan paket yang melakukan pengambilan file dari FTP.
+
 **9. Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!**
 
 Cari file menggunakan filter ```ftp-data.command contains "secret.zip"```
