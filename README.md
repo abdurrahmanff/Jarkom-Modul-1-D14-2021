@@ -80,4 +80,34 @@ Tinggal kita extract zip tadi dan kita mendapat isi file dari "Wanted.zip" seper
 
 ![image](https://user-images.githubusercontent.com/55623766/134755471-143fef3c-22db-4d2b-86e8-5e93fc0c6900.png)
 
+**11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!**
 
+Mengisi capture filter dengan : ```src port 80```
+
+![11 1](https://user-images.githubusercontent.com/90588333/134758943-a4a2f549-ccf0-49fb-bdef-a7eb12178eb3.png)
+
+![11 2](https://user-images.githubusercontent.com/90588333/134758978-3f71fa1e-a4b7-44a5-b6f2-8a01c71e90b2.png)
+
+**12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!**
+
+Mengisi capture filter dengan : ```port 21```
+
+![12 1](https://user-images.githubusercontent.com/90588333/134759005-7cf00022-6454-48ee-bf9e-e8f916140d1f.png)
+
+![12 2](https://user-images.githubusercontent.com/90588333/134759006-1f193785-d1c9-4cb6-8089-18465551609e.png)
+
+**14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!**
+
+Mengisi capture filter dengan : ```dst host kemenag.go.id```
+
+![14 1](https://user-images.githubusercontent.com/90588333/134759031-64223d76-e706-40b2-b3c0-774efcabb911.png)
+
+![14 2](https://user-images.githubusercontent.com/90588333/134759033-d9b8e163-cb1f-40e3-845a-74aa1c1b2022.png)
+
+**15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!**
+
+Mengisi capture filter dengan : ```src host 192.168.1.30```
+
+![15 1](https://user-images.githubusercontent.com/90588333/134759050-696f35dd-67d3-43d2-9e9a-87fc04cbcd38.png)
+
+![15 2](https://user-images.githubusercontent.com/90588333/134759052-c0a2d327-026c-445b-8567-6b46efdecc24.png)
