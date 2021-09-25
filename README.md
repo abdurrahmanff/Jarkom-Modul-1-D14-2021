@@ -2,9 +2,9 @@
 Lapres Modul 1 Jarkom
 
 ### Nama Anggota Kelompok
-### 1. A. Zidan Abdillah Majid (05111840000070)
-### 2. 
-### 3. 
+1. A. Zidan Abdillah Majid (05111940000070)
+2. 
+3. 
 
 ### Soal
 
