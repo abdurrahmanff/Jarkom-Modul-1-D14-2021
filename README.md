@@ -8,6 +8,56 @@ Lapres Modul 1 Jarkom
 
 ### Soal
 
+**1.  Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!**
+
+Filter dengan: ```http.host contains "ichimarumaru.tech"```
+
+![image](https://user-images.githubusercontent.com/72073667/134759201-09cc7eb1-80b2-43e1-a499-8ae4448b3169.png)
+
+Klik kanan paket dan follow tcp stream
+
+![image](https://user-images.githubusercontent.com/72073667/134759241-229be894-1f01-4cfe-9ea2-d6407bd00b80.png)
+
+Bisa dilihat webserver yang digunakan adalah ```nginx/1.18.0 (Ubuntu)```
+
+**2. Temukan paket dari web-web yang menggunakan basic authentication method!**
+
+Filter dengan: ```http.authbasic```, dan kita menemukan 3 paket yang menggunakan basic authentication
+
+![image](https://user-images.githubusercontent.com/72073667/134759408-bc258915-effc-45c1-bd10-015b3ab8a005.png)
+
+**3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan
+dari file .pcapng!**
+
+Filter menggunakan: ```http.host contains "basic.ichimarumaru.tech"```
+
+![image](https://user-images.githubusercontent.com/72073667/134759422-5425ceee-3883-4185-a4b7-620d3137e548.png)
+
+Pada paket 2 bisa dilihat credentialsnya yang merupakan ```[username]:[password]```
+
+Setelah login pada basic.ichimarumaru.tech, tinggal mengisi sesuai yang diminta
+
+![image](https://user-images.githubusercontent.com/72073667/134759446-0b008475-d5d8-4560-8d55-737525dc2e1a.png)
+
+**4. Temukan paket mysql yang mengandung perintah query select!**
+
+Filter menggunakan: ```mysql.query contains "select" or mysql.query contains "SELECT"``` untuk mendapatkan semua paket yang memiliki query select baik semua huruf kapital maupun tidak. Ditemukan 3 paket.
+
+![image](https://user-images.githubusercontent.com/72073667/134759459-1c3352ed-3e5c-4f69-b6a1-c6eda36d37f0.png)
+
+**5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan
+password bisa didapat dari query insert pada table users dari file .pcap!**
+
+Filter menggunakan ```mysql.query contains "INSERT"```
+
+Didapatkan satu paket yang menggunakan query insert, pada Statement, bisa dilihat username dan passwordnya
+
+![image](https://user-images.githubusercontent.com/72073667/134759481-9cac46c5-294a-4c61-acf5-63c2e51c74b5.png)
+
+Setelah login ke portal.ichimarumaru.tech, tinggal isi sesuai perintah
+
+![image](https://user-images.githubusercontent.com/72073667/134759490-9f894e41-3d6e-4845-815e-13223a19cc36.png)
+
 **6. Cari username dan password ketika melakukan login ke FTP Server!**
 
 Mengisi display filter dengan : ```ftp contains user```
